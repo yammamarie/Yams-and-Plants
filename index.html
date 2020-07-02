@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Website Template for Plant Nursery">
+    <meta name="keywords" content="Website template, html, CSS, JavaScript">
+    <meta name="author" content="Yamma Marie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yams & Plants</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/826fbe76c5.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <nav class="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="plants.html"><i class="fa fa-caret-down"></i>Plants</a></li>
+        <li><a href="services.html"><i class="fa fa-caret-down"></i>Services</a></li>
+        <li>Tools</li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="#"><i class="fa fa-map-marker"></i></a><a href="locations.html">Locations</a></li>
+        <li><a href="#"><i class="fa fa-shopping-cart"></i></a><a href="mycart.html">My Cart</a></li>
+        <li><a href="#"><i class="fa fa-fw fa-search"></i></a><input type="text" placeholder="Search.."> </li>
+      </ul>
+    </nav>
+
+    <header aria-label="Main Photo">
+       <img src="images/nurserymainphoto.png" alt="Aerial view of fields">
+       <div class="headertext">
+           <h1 id="company-name">YAMS & PLANTS</h1>
+           <h2 id="company-info">Plant Nursery and Garden Center</h2>
+           <p id="company-address">123 Street, City, Zip Code </p>
+       </div>
+    </header>
+
+    <main aria-label="Main area">
+      <h2>Our Products</h2>
+      <p>Throughout the year, we provide an assortment of indoor plants, succulents, herbs and vegetables.
+        <br>Our plants are perfect additions to any home or garden.
+      </p>
+      <hr class="decorative-hr">
+      <hr>
+      <section class="products" aria-lable="Products">
+        <div class="productcard">
+          <img class="productimg" src="images/pothosivy.jpg" alt="ivy in pot">
+          <h1>Pothos Ivy</h1>
+          <p class="price">$14.99</p>
+          <p class="product-description"> Easy plant to add to your home and enjoys all types of enviroments.</p>
+          <button type="button" name="cart">Add to Cart</button>
+          <p class="shop-more">Shop More Indoor Plants</p>
+        </div>
+        <div class="productcard">
+          <img class="productimg" src="images/cactus.jpg" alt="Cactus in pot">
+          <h1>Cactus Plant</h1>
+          <p class="price">$8.99</p>
+          <p class="product-description"> Low maintance plant for any gardener to add to your collection.</p>
+          <button type="button" name="cart">Add to Cart</button>
+          <p class="shop-more">Shop More Succulents</p>
+        </div>
+        <div class="productcard">
+          <img class="productimg" src="images/thyme.jpg" alt="Herb in a pot">
+          <h1>Thyme Herb</h1>
+          <p class="price">$12.99</p>
+          <p class="product-description"> Easy plant to add to your home and enjoys all types of enviroments.</p>
+          <button type="button" name="cart">Add to Cart</button>
+          <p class="shop-more">Shop More Herbs</p>
+        </div>
+      </section>
+
+      <hr>
+
+      <section class="products" aria-lable="Products">
+        <div class="productcard">
+          <img class="productimg" src="images/shrubs.jpg" alt="circular shrub">
+          <h1><a href="indoorplants.html">Shrubs</a></h1>
+          <p class="product-description"> Fill your yard with decorative shrubs and trees.</p>
+        </div>
+        <div class="productcard">
+          <img class="productimg" src="images/flowers.jpg" alt="flowers in vase">
+          <h1><a href="succulents.html">Flowers</a></h1>
+          <p class="product-description"> Bring color and joy into your home and garden with annual and perennial flowers.</p>
+        </div>
+        <div class="productcard">
+          <img class="productimg" src="images/vegetables.jpg" alt="Herb in a pot">
+          <h1><a href="herbs.html">Vegetables</a></h1>
+          <p class="product-description"> Nuture your family with healthy and wholesome vegetables. </p>
+        </div>
+      </section>
+
+      <hr>
+
+      <h2>Our Services</h2>
+      <p> Shop with us and unlock a variety of services to make your garden bloom.</p>
+      <hr class="decorative-hr">
+      <hr>
+      <section class="services" aria-lable="Services">
+        <div class="servicecard">
+          <img src="images/free delivery.png" alt="Delivery Truck Illustration">
+          <h2>Free Delivery over $50</h2>
+          <button type="button" name="button">Delivery</button>
+        </div>
+        <div class="servicecard">
+          <img src="images/garden essentials.png" alt="plant growing in rain">
+          <h2>Discount on Garden Tools</h2>
+          <button type="button" name="button">Tools</button>
+        </div>
+        <div class="servicecard">
+          <img src="images/consultation.png" alt="two people meeting">
+          <h2>Free Planning Consultation</h2>
+          <button type="button" name="button">Consultation</button>
+        </div>
+      </section>
+
+    <hr>
+
+    <div class="form-container">
+      <div class="text-container">
+        <h2> GROW WITH US </h2>
+        <p> By joining our biweekly newsleter</p>
+      </div>
+      <div class="form">
+        <lable for="firstname"> First Name </lable>
+        <input type="text" id="firstname" name="firstname" placeholder="Your First Name...">
+        <lable for="lastname"> Last Name </lable>
+        <input type="text" id="lastname" name="lastname" placeholder="Your Last Name...">
+        <lable for="email"> Email Address </lable>
+        <input type="text" id="email" name="email" placeholder="Your Email Address...">
+        <input type="submit" value="Submit" placeholder="Join Our Newsletter">
+      </div>
+    </div>
+
+    <hr>
+
+    </main>
+
+    <footer aria-label="site map">
+      <img src="images/Yams and Plants Logo long.png" alt="Plant illustration with white text">
+      <ul>
+        <li>About Us</li>
+        <li>Careers</li>
+        <li>Press</li>
+        <li>Contact Us</li>
+      </ul>
+      <ul>
+        <li>Locations</li>
+        <li>My Cart</li>
+        <li>Track Orders</li>
+      </ul>
+      <ul>
+        <li>Privacy Policy</li>
+        <li>Terms of Service</li>
+        <li>Sitemap</li>
+      </ul>
+
+    </footer>
+  </body>
+</html>
